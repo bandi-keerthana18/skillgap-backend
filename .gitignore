@@ -1,8 +1,28 @@
-node_modules/
-target/
-.idea/
-*.log
-dist/
+
+# Secrets and environment variables
 .env
 .env.*
 !.env.example
+
+# Java / Maven / Spring Boot
+target/
+.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+HELP.md
+
+# Frontend / Node.js / Vite
+node_modules/
+dist/
+npm-debug.log*
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Build output
+build/
