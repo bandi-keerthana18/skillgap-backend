@@ -1,33 +1,28 @@
-HELP.md
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Java / Maven / Spring Boot
 target/
 .mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+*.class
+*.log
+HELP.md
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Frontend / Node.js / Vite
+node_modules/
+dist/
+npm-debug.log*
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# IDE files
+.idea/
 .vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Build output
+build/
