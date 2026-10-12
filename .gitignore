@@ -1,0 +1,9 @@
+node_modules/
+target/
+.idea/
+*.log
+backend/src/main/resources/application.properties
+dist/
+.env
+.env.*
+!.env.example
